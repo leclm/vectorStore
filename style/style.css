@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  background-color: #161819;
+  font-family: "Poppins", sans-serif;
+}
+body nav {
+  margin: 44px 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+body nav .menu {
+  display: flex;
+}
+body nav .menu a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  width: auto;
+  height: 64px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  /* vertical */
+  justify-content: center;
+}
+body nav .submit-container .btn-submit {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  padding: 8px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background-size: 300% 100%;
+  transition: all 0.4s ease-in-out;
+}
+body nav .submit-container .btn-submit:focus {
+  outline: none;
+}
+body nav .submit-container .btn-submit:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+body header {
+  margin: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 786px;
+}
+body header h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.1em;
+}
+body header h2 {
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  width: 586px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body header .search-container {
+  background-color: #252728;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+body header .search-container .btn-vector {
+  background: linear-gradient(99.59deg, #F473A3 3.39%, #FE5661 97.89%);
+  border-radius: 10px;
+  width: 155px;
+  height: 50px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+body header .search-container .btn-vector a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px;
+}
+body header .search-container form {
+  width: 810px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px 0 24px;
+}
+body header .search-container form input[type=text] {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  opacity: 0.5;
+  outline: none;
+}
+body header .search-container form button[type=submit] {
+  background-color: transparent;
+  border: none;
+}
+body .content-filter {
+  margin: 44px 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .content-filter div {
+  display: flex;
+}
+body .content-filter div p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  margin: 0 18px;
+}
+body .content-filter div p img {
+  position: absolute;
+}
+body .content-filter div :nth-child(4) {
+  color: #D60C12;
+  font-weight: 500;
+}
+body .content-filter div :nth-child(5) {
+  color: #00FFF2;
+  font-weight: 500;
+}
+body .content-filter div #pipe {
+  margin: 0 18px;
+}
+body .content-cards {
+  margin: 44px 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+body .content-cards .container {
+  background-color: #1F2123;
+  border-radius: 24px;
+  padding: 24px;
+  max-width: 381px;
+  height: 520px;
+}
+body .content-cards .container .vector-card {
+  background-color: #393A3E;
+  border-radius: 24px;
+  height: 280px;
+}
+body .content-cards .container .vector-card img:first-child {
+  margin: 32px 74px;
+  padding: 0;
+}
+body .content-cards .container .vector-card img:last-child {
+  position: relative;
+  top: -270px;
+  left: 290px;
+}
+body .content-cards .container .texts > p {
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+body .content-cards .container .texts .text-name {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 23px 0 0;
+  padding: 0;
+}
+body .content-cards .container .texts .text-info {
+  font-weight: 40;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.5;
+  margin: 6px 76px 0;
+  padding: 0;
+}
+body .content-cards .container .texts .download-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 0;
+}
+body .content-cards .container .texts .download-info p {
+  margin: 0 12px 0 0;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration-line: underline;
+  opacity: 0.5;
+}
+body footer {
+  margin: 44px 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .collections {
+  display: flex;
+  align-items: center;
+}
+body footer .collections p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  opacity: 0.5;
+  text-decoration: underline;
+  width: 152px;
+}
+body footer .btn-next-page {
+  background-color: #252728;
+  border-radius: 10px;
+  width: 262px;
+  height: 76px;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -89px;
+}
+body footer .btn-next-page p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+}
+body footer .pages-nav {
+  display: flex;
+  align-items: center;
+}
+body footer .pages-nav p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  opacity: 0.25;
+}
+body footer .pages-nav .pages-nav-btn {
+  display: flex;
+  margin: 0 12px;
+}
+body footer .pages-nav .pages-nav-btn .page-number {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  margin: 0 4px;
+  background-color: #393A3E;
+  border-radius: 6px;
+}
+body footer .pages-nav .pages-nav-btn .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background-color: #1F2123;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
