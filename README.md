@@ -34,8 +34,9 @@
 <h2 align="center">Technologies 🚀</h2>
 
 - [Sass](https://sass-lang.com/)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [HTML](https://html.com/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
 
 ---
 
